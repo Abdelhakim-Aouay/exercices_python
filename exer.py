@@ -67,7 +67,55 @@ print(s)'''
 #    l=l+1
 #print (l)
 
-n=int(input("donner la valeur "))
+'''n=int(input("donner la valeur "))
 for i in range (1,n+1):
     if n % i == 0 :
-       print( i , end = ' ')
+       print( i , end = ' ')'''
+'''s=500
+n=int(input("donner la valeur de n "))
+while s < 600:
+    for i in range(1, n):
+        s=s+10
+        print(i,s)
+
+print(i+1)'''
+'''n=int(input("donner un valeur "))
+A=n
+for i in range (1,n+1):
+    A=n*i
+    print(n,"*",i, " = ", A)'''
+
+
+'''for i in range (1,11):
+    A=i
+    print("table de ", i)
+    for c in range (1,11):
+        A=i*c
+        print(i, " * ", c, " = ", A)'''
+'''n=int(input(" donner la valeur "))
+A="*"
+for i in range (1, n+1):
+    print(A*i)'''
+
+'''while True:
+ n=float(input(" donner la valeur "))
+ if n>1 and n<3:
+     print ("bravo")
+      break'''
+s=4
+i=4
+while s<=1234:
+      s=s+i
+      i=i+1
+print(i)
+
+
+
+
+
+
+
+
+
+
+
